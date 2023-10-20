@@ -1,7 +1,9 @@
 body {
+    height: 120vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #dedef9;
 }
 
 header {
@@ -18,7 +20,7 @@ header {
 
 header a {
     font-size: 2.6em;
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition: 0.2s;
     z-index: 1;
@@ -30,6 +32,9 @@ header a:hover {
 }
 
 nav {
+    position: sticky;
+    top: 0;
+    height: 25vh;
     padding: 20px;
     border: solid 4px black;
     box-shadow: 2px 2px 5px;
@@ -40,12 +45,20 @@ nav {
     align-items: center;
     flex-direction: column;
     transform: translateY(-23vh);
-    transition: transform 2s;
-    background-color: #2fafe2
+    transition: transform 1.5s;
+    background-color: #2fafe2;
 }
 
-nav a{
-    margin: 5px 0;
+nav a {
+    margin: 10px 0;
     font-size: 2em;
-    color: red;
+    color: rgb(255, 255, 255);
+    text-decoration: dashed;
+    transition: transform 0.2s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+    transition: transform 0.25s;
 }

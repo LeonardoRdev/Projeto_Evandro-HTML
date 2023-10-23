@@ -22,7 +22,8 @@ finalizarQuiz.onclick = function() {
     let designer = 0;
     let redes = 0;
     let seguranca = 0;
-    let mensagem = "nada";
+    let vocacao = "Nenhuma!";
+    let descricaoVocacao = "Você não é nínguem / ainda não sei ao certo..."
 
     let pergunta1 = document.quiz.q1;
     let pergunta2 = document.quiz.q2;
@@ -46,23 +47,29 @@ finalizarQuiz.onclick = function() {
         }
     }
     if (designer > programador && designer > seguranca && designer > redes) {
-        mensagem = "Designer!";
-
+        vocacao = "Designer!";
+        descricaoVocacao = "Descrição designer"
     }
     else if (programador > designer && programador > seguranca && programador > redes) {
-        mensagem = "Programador!";
+        vocacao = "Programador!";
+        descricaoVocacao = "Descrição Programador"
     }
     else if (seguranca > designer && seguranca > programador && seguranca > redes) {
-        mensagem = "Segurança!";
+        vocacao = "Segurança!";
+        descricaoVocacao = "Descrição Segurança"
     }
     else if (redes > designer && redes > programador && redes > seguranca) {
-        mensagem = "Rede!";
+        vocacao = "Rede!";
+        descricaoVocacao = "Descricao Redes Descricao Redes Descricao Redes Descricao Redes Descricao Redes Descricao Redes Descricao Redes Descricao Redes"
     }
     else {
-        alert("deu paia");
-        descricaoResultado = "Você não é nínguem...";
+        alert("Deu Velha 💀");
     }
+
+    // Exibe quantos pontos cada vocação marcou -> Designer, Programador, Segurança e Redes respectivamente.
     alert("Aqui estão todos:" + designer + programador + seguranca + redes);
+
     resultadoCaixa.style.display = "block";
-    resultado.innerHTML = mensagem;
+    resultado.innerHTML = vocacao;
+    descricaoResultado.innerHTML = descricaoVocacao
 }

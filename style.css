@@ -99,7 +99,6 @@ main form {
     width: 70vw;
     background-color: rgb(174, 179, 252);
     border: solid 4px black;
-    margin-bottom: 60px;
 }
 
 form div.pergunta {
@@ -107,11 +106,13 @@ form div.pergunta {
     align-items: center;
 }
 
-main h2 {
+.pergunta h2 {
+    margin: 0;
     font-size: 2.8em;
 }
 
-main h3 {
+.pergunta h3 {
+    margin: 0;
     font-size: 2em;
     margin-left: 15px;
 }
@@ -121,7 +122,33 @@ main form p {
     font-family: sans-serif;
 }
 
-form div#resultado {
-    border-top: 4px black solid;
-    background-color: aqua;
+form input#enviar {
+    display: flex;
+    font-size: 2em;
+    margin: 0 auto;
+}
+
+#resultado {
+    display: none;
+    border-top: 4px solid black;
+    background-color: #9589ffb4;
+    padding: 15px 5px;
+}
+
+#resultado p {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    /* PROVISÓRIO */
+    font-family: sans-serif;
+}
+
+#rating {
+    margin: 25px 0 30px;
+    display: flex;
+}
+
+#rating p {
+    margin: 0;
+    font-size: 2.6em;
 }

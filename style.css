@@ -8,7 +8,7 @@ body {
 
 header {
     width: 100vw;
-    height: 8vh;
+    height: 60px;
     position: fixed;
     padding: 15px 0px;
     display: flex;
@@ -34,7 +34,7 @@ header a:hover {
 nav {
     position: sticky;
     top: 0;
-    height: 25vh;
+    height: 200px;
     padding: 20px;
     border: solid 4px black;
     box-shadow: 2px 2px 5px;
@@ -44,7 +44,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transform: translateY(-23vh);
+    transform: translateY(-180px);
     transition: transform 1.5s;
     background-color: #2fafe2;
 }
@@ -75,24 +75,53 @@ nav a:hover {
 
 /* Estilização do QUIZ */
 main {
-    margin-top: -18vh;
+    margin-top: -150px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main h2 {
-
+main h1#descubra {
+    width: 55vw;
+    background-color: rgb(97, 40, 189);
+    padding: 15px;
+    color: rgb(255, 230, 0);
+    border-radius: 25px;
+    border: solid 4px white;
+    box-shadow: 2px 2px 6px black;
+    text-align: center;
+    /* PROVISÓRIO */
+    font-size: 2.6em;
+    font-family: sans-serif;
 }
 
 main form {
-    /* PROVISÓRIO */
-    width: 70%;
-    background-color: rgb(125, 247, 171);
-    /* PROVISÓRIO */
+    width: 70vw;
+    background-color: rgb(174, 179, 252);
+    border: solid 4px black;
+    margin-bottom: 60px;
+}
+
+form div.pergunta {
+    display: flex;
+    align-items: center;
+}
+
+main h2 {
+    font-size: 2.8em;
+}
+
+main h3 {
+    font-size: 2em;
+    margin-left: 15px;
 }
 
 main form p {
     /* provisório */
     font-family: sans-serif;
+}
+
+form div#resultado {
+    border-top: 4px black solid;
+    background-color: aqua;
 }

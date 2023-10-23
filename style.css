@@ -68,20 +68,53 @@ nav a:hover {
 
 
 /* Estilização dos Signos*/
+main#main_signo {
+    margin-top: -150px;
+    /* PROVISÓRIO */
+    background-color: rgb(255, 0, 0);
+}
 
+main#main_signo h1 {
+    text-align: center;
+    font-size: 2.6em;
+    background-color: rgb(0, 114, 0);
+}
 
+div#todos_signos {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
 
+section.signos_caixa {
+    background-color: rgb(0, 255, 0);
+    width: 250px;
+}
 
+div.signo {
+    margin: 15px auto 0;
+    background-color: rgb(217, 255, 4);
+    height: 100px;
+    width: 150px;
+}
+
+/* 
+Espaçamento
+Espaçamento 
+Espaçamento 
+Espaçamento 
+Espaçamento 
+*/
 
 /* Estilização do QUIZ */
-main {
+main#main_quiz {
     margin-top: -150px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main h1#descubra {
+main#main_quiz h1#descubra {
     width: 55vw;
     background-color: #3D348B;
     padding: 15px;
@@ -95,7 +128,7 @@ main h1#descubra {
     font-family: sans-serif;
 }
 
-main form {
+main#main_quiz form {
     width: 70vw;
     background-color: rgb(174, 179, 252);
     border: solid 4px black;
@@ -122,7 +155,7 @@ form p.alternativas {
     margin-left: 15px;
 }
 
-main form p {
+main#main_quiz form p {
     /* provisório */
     font-family: sans-serif;
 }

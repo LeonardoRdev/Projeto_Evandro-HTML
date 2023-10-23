@@ -48,15 +48,15 @@ finalizarQuiz.onclick = function() {
     }
     if (designer > programador && designer > seguranca && designer > redes) {
         vocacao = "Designer!";
-        descricaoVocacao = "Descrição designer"
+        descricaoVocacao = "Descrição designer..."
     }
     else if (programador > designer && programador > seguranca && programador > redes) {
         vocacao = "Programador!";
-        descricaoVocacao = "Descrição Programador"
+        descricaoVocacao = "Descrição Programador..."
     }
     else if (seguranca > designer && seguranca > programador && seguranca > redes) {
-        vocacao = "Segurança!";
-        descricaoVocacao = "Descrição Segurança"
+        vocacao = "Segurança da Informação!";
+        descricaoVocacao = "Descrição Segurança da Informação..."
     }
     else if (redes > designer && redes > programador && redes > seguranca) {
         vocacao = "Rede!";

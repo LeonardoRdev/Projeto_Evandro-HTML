@@ -1,3 +1,4 @@
+// BARRA COM MENU
 const menuIcon = document.querySelector("#menuIcon");
 const finalizarQuiz = document.querySelector("#enviar");
 
@@ -13,6 +14,71 @@ menuIcon.onclick = function () {
     }
 }
 
+
+
+// SIGNOS
+const signo = document.getElementsByClassName("signo");
+let descricaoSigno = document.querySelector("section#descricaoSigno")
+for (let s = 0; s < 12; s++) {
+    signo[s].onmouseover = function() {
+        descricaoSigno.style.display = "block";
+        if (s == 0) {
+            descricaoSigno.innerHTML = "Áries";
+            descricaoSigno.style.margin = "15px 299px 0 0"
+        }
+        else if (s == 1) {
+            descricaoSigno.innerHTML = "Gêmeos";
+            descricaoSigno.style.margin = "230px 299px 0 0";
+        }
+        else if (s == 2) {
+            descricaoSigno.innerHTML = "Leão";
+            descricaoSigno.style.margin = "445px 299px 0 0"
+        }
+        else if (s == 3) {
+            descricaoSigno.innerHTML = "Libra";
+            descricaoSigno.style.margin = "660px 299px 0 0"
+        }
+        else if (s == 4) {
+            descricaoSigno.innerHTML = "Sargitário";
+            descricaoSigno.style.margin = "875px 299px 0 0"
+        }
+        else if (s == 5) {
+            descricaoSigno.innerHTML = "Aquário";
+            descricaoSigno.style.margin = "1090px 299px 0 0"
+        }
+        else if (s == 6) {
+            descricaoSigno.innerHTML = "Touro";
+            descricaoSigno.style.margin = "15px -299px 0 0"
+        }
+        else if (s == 7) {
+            descricaoSigno.innerHTML = "Câncer";
+            descricaoSigno.style.margin = "230px -299px 0 0"
+        }
+        else if (s == 8) {
+            descricaoSigno.innerHTML = "Virgem";
+            descricaoSigno.style.margin = "445px -299px 0 0"
+        }
+        else if (s == 9) {
+            descricaoSigno.innerHTML = "Escorpião";
+            descricaoSigno.style.margin = "660px -299px 0 0"
+        }
+        else if (s == 10) {
+            descricaoSigno.innerHTML = "Capricórnio";
+            descricaoSigno.style.margin = "875px -299px 0 0"
+        }
+        else if (s == 11) {
+            descricaoSigno.innerHTML = "Peixes";
+            descricaoSigno.style.margin = "1090px -299px 0 0"
+        }
+        // alert("senti o " + s);
+    }
+}
+
+//
+//
+//
+
+// QUIZ VOCACIONAL
 finalizarQuiz.onclick = function () {
     let aSuaVocacao = document.querySelector("#sua_vocacao")
     let resultadoCaixa = document.querySelector("#resultado");

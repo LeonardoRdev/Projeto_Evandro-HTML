@@ -73,6 +73,10 @@ nav a:hover {
 
 
 /* Estilização dos Signos*/
+body#body_signo {
+    background-color: rgba(0, 238, 255, 0.32);
+}
+
 main#main_signo {
     margin-top: -150px;
 }
@@ -94,20 +98,18 @@ main#main_signo h1 {
 div#todos_signos {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0, 255, 255, 0.459);
     padding: 20px;
 }
 
 section.signos_caixa {
-    background-color: rgba(0, 255, 0, 0.438);
     display: flex;
     flex-direction: column;
 }
 
 section#descricaoSigno {
     display: none;
-    height: 15vh;
-    width: 25vw;
+    height: 210px;
+    width: 350px;
     background-color: rgb(214, 148, 25);
     border: solid 4px black;
     text-align: center;
@@ -121,8 +123,10 @@ img.signo {
     border: solid 4px black;
     box-shadow: 0 0 6px 1px;
     background-color: rgb(245, 170, 30);
-    height: 15vw;
-    width: 25vw;
+    /* height: 15vw; */
+    height: 210px;
+    /* width: 25vw; */
+    width: 350px;
 }
 
 
@@ -240,4 +244,83 @@ form input#enviar:active {
     margin: 0 auto;
     font-size: 1.7em;
     text-align: center;
+}
+
+
+
+
+/*configuração para celular com tela até 530px de largura:*/
+@media only screen and (max-width: 630px){
+
+    nav a {
+        font-size: 1.6em;
+        text-decoration: underline;
+    }
+
+    main#main_quiz h1#descubra {
+        font-size: 2em;
+    }
+
+    .pergunta h2 {
+        font-size: 2.2em;
+    }
+    
+    .pergunta h3 {
+        font-size: 1.5em;
+    }
+    
+    main#main_quiz form p {
+        font-size: 0.9em;
+    }
+
+    form input#enviar {
+        font-size: 1.8em;
+    }
+
+    #resultado {
+        font-size: 2.5em;
+    }
+
+    #rating p {
+        font-size: 1.5em;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+    main#main_quiz h1#descubra {
+        font-size: 1.7em;
+    }
+
+    .pergunta h2 {
+        font-size: 1.7em;
+    }
+    
+    .pergunta h3 {
+        font-size: 1.1em;
+    }
+    
+    main#main_quiz form p {
+        font-size: 0.8em;
+    }
+
+    form input#enviar {
+        font-size: 1.6em;
+    }
+
+    #rating p {
+        font-size: 1.2em;
+    }
+
+
+}
+
+@media only screen and (max-width: 410px){
+
+    nav a {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
 }

@@ -78,8 +78,17 @@ main#main_signo {
 }
 
 main#main_signo h1 {
+    padding: 10px;
+    margin: 30px auto;
+    width: 55vw;
+    background-color: #3D348B;
+    border: solid 4px white;
+    border-radius: 25px;
+    color: rgb(255, 230, 0);
+    box-shadow: 2px 2px 6px black;
     text-align: center;
     font-size: 2.6em;
+    font-family: 'Roboto', sans-serif;
 }
 
 div#todos_signos {
@@ -97,20 +106,23 @@ section.signos_caixa {
 
 section#descricaoSigno {
     display: none;
-    width: 350px;
-    height: 170px;
-    background-color: red;
+    height: 15vh;
+    width: 25vw;
+    background-color: rgb(214, 148, 25);
+    border: solid 4px black;
     text-align: center;
+    box-shadow: 3px 3px 7px;
     padding: 15px;
-    font-size: 2em;
-    margin: 15px /*200px*/ 0 0 0;
+    font-size: 1.5em;
 }
 
 img.signo {
-    margin: 15px auto 0;
-    background-color: rgb(255, 167, 4);
-    height: 200px;
-    width: 350px;
+    margin: 25px auto 0;
+    border: solid 4px black;
+    box-shadow: 0 0 6px 1px;
+    background-color: rgb(245, 170, 30);
+    height: 15vw;
+    width: 25vw;
 }
 
 

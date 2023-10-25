@@ -16,20 +16,21 @@ menuIcon.onclick = function () {
 
 
 // QUIZ VOCACIONAL
-const finalizarQuiz = document.querySelector("#enviar");
+const finalizarQuiz = document.querySelector("#enviar"); // Botão de finalizar Quiz
 
 finalizarQuiz.onclick = function () {
     let aSuaVocacao = document.querySelector("#sua_vocacao")
     let resultadoCaixa = document.querySelector("#resultado");
     let resultado = document.querySelector("#resultado p");
     let descricaoResultado = document.querySelector("#rating p");
-
+    
+    // Pontos marcados para cada vocação
     let programador = 0;
     let designer = 0;
     let redes = 0;
     let seguranca = 0;
-    let vocacao = "Vocação";
-    let descricaoVocacao = "Descrição da Vocação"
+    let vocacao = "Vocação"; // Mensagem mostrando a Vocação
+    let descricaoVocacao = "Descrição da Vocação" // Mensagem mostrando a descrição da Vocação
 
     let pergunta1 = document.quiz.q1;
     let pergunta2 = document.quiz.q2;
@@ -38,7 +39,7 @@ finalizarQuiz.onclick = function () {
     let pergunta5 = document.quiz.q5;
     const perguntas = [pergunta1, pergunta2, pergunta3, pergunta4, pergunta5];
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 5; i++) { // Roda as 5 perguntas do quiz e pontua dependendo da alternativa escolhida
         if (perguntas[i][0].checked) {
             designer += 1;
         }
@@ -80,8 +81,9 @@ finalizarQuiz.onclick = function () {
     // Exibe quantos pontos cada vocação marcou -> Designer, Programador, Segurança e Redes respectivamente.
     // alert("Aqui estão todos:" + designer + programador + seguranca + redes);
 
+    // Muda o display de "none" para "block", fazendo com que o resultado do quiz apareça!
     aSuaVocacao.style.display = "block";
     resultadoCaixa.style.display = "block";
-    resultado.innerHTML = vocacao;
-    descricaoResultado.innerHTML = descricaoVocacao
+    resultado.innerHTML = vocacao; // Diz a sua vocação segundo suas respostas
+    descricaoResultado.innerHTML = descricaoVocacao; // Descreve a sua vocação
 }

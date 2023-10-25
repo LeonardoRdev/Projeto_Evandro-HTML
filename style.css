@@ -1,15 +1,18 @@
 /*  
 Tag Descoberta:
 z-index: 1;
+- O z-index muda a camada em que um elemento se encontra na página, o padrão é z-index: 0,
+    E se você defini-lo como 1, por exemplo, ele ficará sempre 1 camada a frente de todos os outros elementos.
 */
 
-/* ESTILIZAÇÂO GERAL */
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #dedef9;
 }
+
+/* Barra de menu */
 
 header {
     width: 100vw;
@@ -123,12 +126,9 @@ img.signo {
     border: solid 4px black;
     box-shadow: 0 0 6px 1px;
     background-color: rgb(245, 170, 30);
-    /* height: 15vw; */
     height: 210px;
-    /* width: 25vw; */
     width: 350px;
 }
-
 
 /* 
 Espaçamento
@@ -249,7 +249,7 @@ form input#enviar:active {
 
 
 
-/*configuração para celular com tela até 530px de largura:*/
+/* Configuração para celular com tela até 530px de largura: */
 @media only screen and (max-width: 630px){
 
     header a {

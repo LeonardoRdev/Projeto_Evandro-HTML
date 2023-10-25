@@ -18,9 +18,9 @@ menuIcon.onclick = function () {
 // SIGNOS
 const signo = document.getElementsByClassName("signo");
 let descricaoSigno = document.querySelector("section#descricaoSigno")
-for (let s = 0; s < 12; s++) {
+for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os signos)
     signo[s].onmouseover = function() {
-        descricaoSigno.style.display = "flex";
+        descricaoSigno.style.display = "flex"; // faz aparecer a caixinha com a previsão de cada signo
         descricaoSigno.style.flexDirection = "column"
         descricaoSigno.style.justifyContent = "space-between"
         if (s == 0) {

@@ -46,6 +46,12 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
                 document.querySelector("section#descricaoSigno").style.marginTop = "150px";
                 // alert("foi mesmo")
             }
+            else if (document.querySelector("img.signo").width == "105") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "105px";
+            }
+            else if (document.querySelector("img.signo").width == "63") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "85px";
+            }
         }
         else if (s == 2) {
             // Leão
@@ -58,6 +64,12 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             descricaoSigno.style.margin = "494px 20px 0"
             if (document.querySelector("img.signo").width == "175") {
                 document.querySelector("section#descricaoSigno").style.marginTop = "290px"
+            }
+            else if (document.querySelector("img.signo").width == "105") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "200px";
+            }
+            else if (document.querySelector("img.signo").width == "63") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "155px";
             }
         }
         else if (s == 3) {
@@ -72,6 +84,12 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             if (document.querySelector("img.signo").width == "175") {
                 document.querySelector("section#descricaoSigno").style.marginTop = "430px"
             }
+            else if (document.querySelector("img.signo").width == "105") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "295px";
+            }
+            else if (document.querySelector("img.signo").width == "63") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "225px";
+            }
         }
         else if (s == 4) {
             // Sargitário
@@ -85,6 +103,12 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             if (document.querySelector("img.signo").width == "175") {
                 document.querySelector("section#descricaoSigno").style.marginTop = "570px"
             }
+            else if (document.querySelector("img.signo").width == "105") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "390px";
+            }
+            else if (document.querySelector("img.signo").width == "63") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "295px";
+            }
         }
         else if (s == 5) {
             // Aquário
@@ -97,6 +121,12 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             descricaoSigno.style.margin = "1220px 20px 0"
             if (document.querySelector("img.signo").width == "175") {
                 document.querySelector("section#descricaoSigno").style.marginTop = "710px"
+            }
+            else if (document.querySelector("img.signo").width == "105") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "485px";
+            }
+            else if (document.querySelector("img.signo").width == "63") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "365px";
             }
         }
         else if (s == 6) {
@@ -121,6 +151,12 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             if (document.querySelector("img.signo").width == "175") {
                 document.querySelector("section#descricaoSigno").style.marginTop = "150px"
             }
+            else if (document.querySelector("img.signo").width == "105") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "105px";
+            }
+            else if (document.querySelector("img.signo").width == "63") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "85px";
+            }
         }
         else if (s == 8) {
             // Virgem
@@ -133,6 +169,12 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             descricaoSigno.style.margin = "494px 20px 0"
             if (document.querySelector("img.signo").width == "175") {
                 document.querySelector("section#descricaoSigno").style.marginTop = "290px"
+            }
+            else if (document.querySelector("img.signo").width == "105") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "200px";
+            }
+            else if (document.querySelector("img.signo").width == "63") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "155px";
             }
         }
         else if (s == 9) {
@@ -147,6 +189,12 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             if (document.querySelector("img.signo").width == "175") {
                 document.querySelector("section#descricaoSigno").style.marginTop = "430px"
             }
+            else if (document.querySelector("img.signo").width == "105") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "295px";
+            }
+            else if (document.querySelector("img.signo").width == "63") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "225px";
+            }
         }
         else if (s == 10) {
             // Capricórnio
@@ -160,6 +208,12 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             if (document.querySelector("img.signo").width == "175") {
                 document.querySelector("section#descricaoSigno").style.marginTop = "570px"
             }
+            else if (document.querySelector("img.signo").width == "105") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "390px";
+            }
+            else if (document.querySelector("img.signo").width == "63") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "295px";
+            }
         }
         else if (s == 11) {
             // Peixes
@@ -172,6 +226,12 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             descricaoSigno.style.margin = "1220px 20px 0"
             if (document.querySelector("img.signo").width == "175") {
                 document.querySelector("section#descricaoSigno").style.marginTop = "710px"
+            }
+            else if (document.querySelector("img.signo").width == "105") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "485px";
+            }
+            else if (document.querySelector("img.signo").width == "63") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "365px";
             }
         }
     }

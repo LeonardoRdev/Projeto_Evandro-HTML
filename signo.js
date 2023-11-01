@@ -41,7 +41,11 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             document.querySelector("section#descricaoSigno p.previsao").style.backgroundColor = "white";
             document.querySelector("section#descricaoSigno p.previsao").style.padding = "5px";
             document.querySelector("section#descricaoSigno p.previsao").style.margin = "0";
-            descricaoSigno.style.margin = "252px 20px 0"
+            descricaoSigno.style.margin = "252px 20px 0";
+            if (document.querySelector("img.signo").width == "175") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "150px";
+                // alert("foi mesmo")
+            }
         }
         else if (s == 2) {
             // Leão
@@ -52,6 +56,9 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             document.querySelector("section#descricaoSigno p.previsao").style.padding = "5px";
             document.querySelector("section#descricaoSigno p.previsao").style.margin = "0";
             descricaoSigno.style.margin = "494px 20px 0"
+            if (document.querySelector("img.signo").width == "175") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "290px"
+            }
         }
         else if (s == 3) {
             // Libra
@@ -62,6 +69,9 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             document.querySelector("section#descricaoSigno p.previsao").style.padding = "5px";
             document.querySelector("section#descricaoSigno p.previsao").style.margin = "0";
             descricaoSigno.style.margin = "736px 20px 0"
+            if (document.querySelector("img.signo").width == "175") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "430px"
+            }
         }
         else if (s == 4) {
             // Sargitário
@@ -72,6 +82,9 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             document.querySelector("section#descricaoSigno p.previsao").style.padding = "5px";
             document.querySelector("section#descricaoSigno p.previsao").style.margin = "0";
             descricaoSigno.style.margin = "978px 20px 0"
+            if (document.querySelector("img.signo").width == "175") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "570px"
+            }
         }
         else if (s == 5) {
             // Aquário
@@ -82,6 +95,9 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             document.querySelector("section#descricaoSigno p.previsao").style.padding = "5px";
             document.querySelector("section#descricaoSigno p.previsao").style.margin = "0";
             descricaoSigno.style.margin = "1220px 20px 0"
+            if (document.querySelector("img.signo").width == "175") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "710px"
+            }
         }
         else if (s == 6) {
             // Touro
@@ -102,6 +118,9 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             document.querySelector("section#descricaoSigno p.previsao").style.padding = "5px";
             document.querySelector("section#descricaoSigno p.previsao").style.margin = "0";
             descricaoSigno.style.margin = "252px 20px 0"
+            if (document.querySelector("img.signo").width == "175") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "150px"
+            }
         }
         else if (s == 8) {
             // Virgem
@@ -112,6 +131,9 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             document.querySelector("section#descricaoSigno p.previsao").style.padding = "5px";
             document.querySelector("section#descricaoSigno p.previsao").style.margin = "0";
             descricaoSigno.style.margin = "494px 20px 0"
+            if (document.querySelector("img.signo").width == "175") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "290px"
+            }
         }
         else if (s == 9) {
             // Escorpião
@@ -122,6 +144,9 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             document.querySelector("section#descricaoSigno p.previsao").style.padding = "5px";
             document.querySelector("section#descricaoSigno p.previsao").style.margin = "0";
             descricaoSigno.style.margin = "736px 20px 0"
+            if (document.querySelector("img.signo").width == "175") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "430px"
+            }
         }
         else if (s == 10) {
             // Capricórnio
@@ -132,6 +157,9 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             document.querySelector("section#descricaoSigno p.previsao").style.padding = "5px";
             document.querySelector("section#descricaoSigno p.previsao").style.margin = "0";
             descricaoSigno.style.margin = "978px 20px 0"
+            if (document.querySelector("img.signo").width == "175") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "570px"
+            }
         }
         else if (s == 11) {
             // Peixes
@@ -142,6 +170,9 @@ for (let s = 0; s < 12; s++) { // Looping que roda de 0 a 11 (passa por todos os
             document.querySelector("section#descricaoSigno p.previsao").style.padding = "5px";
             document.querySelector("section#descricaoSigno p.previsao").style.margin = "0";
             descricaoSigno.style.margin = "1220px 20px 0"
+            if (document.querySelector("img.signo").width == "175") {
+                document.querySelector("section#descricaoSigno").style.marginTop = "710px"
+            }
         }
     }
 }

@@ -113,7 +113,7 @@ section.signos_caixa {
 section#descricaoSigno {
     display: none;
     height: 210px;
-    width: 30vw;
+    width: 350px;
     background-color: rgb(214, 148, 25);
     border: solid 4px black;
     text-align: center;
@@ -131,8 +131,8 @@ img.signo {
     width: 350px;
 }
 
-img#ultimo_signo {
-    margin-bottom: 20px;
+img.sexto_signo {
+    margin-bottom: 30px;
 }
 
 /* 
@@ -254,7 +254,28 @@ form input#enviar:active {
 
 
 
+
 /* Configuração para celular com tela até 530px de largura: */
+@media only screen and (max-width: 1060px){
+
+    div#todos_signos {
+        /* flex-direction: column; */
+        background-color: red;
+    }
+
+    img.signo {
+        height: 105px;
+        width: 175px;
+    }
+
+    section#descricaoSigno {
+        height: 105px;
+        width: 150px;
+        font-size: 1.1em;
+    }
+
+}
+
 @media only screen and (max-width: 630px){
 
     header a {

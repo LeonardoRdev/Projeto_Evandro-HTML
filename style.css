@@ -101,7 +101,8 @@ main#main_signo h1 {
 div#todos_signos {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px 25px;
+    /* background-color: red; */
 }
 
 section.signos_caixa {
@@ -112,7 +113,7 @@ section.signos_caixa {
 section#descricaoSigno {
     display: none;
     height: 210px;
-    width: 350px;
+    width: 30vw;
     background-color: rgb(214, 148, 25);
     border: solid 4px black;
     text-align: center;
@@ -128,6 +129,10 @@ img.signo {
     background-color: rgb(245, 170, 30);
     height: 210px;
     width: 350px;
+}
+
+img#ultimo_signo {
+    margin-bottom: 20px;
 }
 
 /* 
